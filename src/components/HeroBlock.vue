@@ -2,7 +2,7 @@
     <div class="hero">
         <div class="hero-container d-flex flex-column justify-space-between">
             <div class="hero-container__text">
-                <h4 class="hero-container__title">Luxury homeware for people who love timeless design quality</h4>
+                <h2 class="hero-container__title">Luxury homeware for people who love timeless design quality</h2>
                 <p class="hero-container__description">Shop the new Spring 2022 collection today</p>
             </div>
 
@@ -13,10 +13,7 @@
 
 
 <script>
-import CustomButton from './UI/CustomButton.vue'
-
 export default {
-  components: { CustomButton },
     
 }
 </script>
