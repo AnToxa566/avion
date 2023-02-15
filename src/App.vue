@@ -24,6 +24,8 @@ export default {
     font-family: var(--clash);
     font-weight: 400;
     font-size: 16px;
+
+    color: var(--purple);
   }
 
   .container {
