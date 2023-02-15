@@ -17,8 +17,16 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
+<style lang="scss">
+@import './assets/styles/global.scss';
+
+  * {
+    font-family: var(--clash);
+    font-weight: 400;
+    font-size: 16px;
+  }
+
   .container {
-    max-width: 1440px 
+    max-width: 1440px;
   }
 </style>
