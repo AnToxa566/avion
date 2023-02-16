@@ -56,7 +56,7 @@ export default {
             }
 
             &-purple {
-                color: var(--purple);
+                color: var(--dark-primary);
             }
         }
 
@@ -70,7 +70,7 @@ export default {
             }
 
             &-purple {
-                background-color: var(--purple);
+                background-color: var(--dark-primary);
             }
         }
     }

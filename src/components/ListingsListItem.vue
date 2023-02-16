@@ -1,10 +1,10 @@
 <template>
-    <div class="features-list__item">
-        <img :src="this.item.iconPath">
+    <div class="listing-list__item">
+        <img :src="this.item.imgPath">
 
         <h4>{{ this.item.title }}</h4>
 
-        <p>{{ this.item.description }}</p>
+        <p>{{ this.item.price }}</p>
     </div>
 </template>
 
@@ -16,26 +16,27 @@ export default {
             type: Object,
             required: true,
         }
-    }
+    },
 }
 </script>
 
 
 <style lang="scss" scoped>
-    .features-list__item {
-        padding: 48px;
+    .listing-list__item {
         width: 305px;
-        background-color: var(--light-grey);
+
+        img {
+            margin-bottom: 24px;
+        }
 
         h4 {
-            margin-top: 12px;
             font-size: 20px;
+            margin-bottom: 8px;
         }
 
         p {
-            margin-top: 12px;
             font-family: var(--satoshi);
-            line-height: 24px;
+            font-size: 18px;
         }
     }
 </style>

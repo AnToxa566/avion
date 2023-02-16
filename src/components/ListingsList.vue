@@ -1,23 +1,22 @@
 <template>
-    <div class="features-list d-flex justify-space-between">
-        <features-list-item
+    <div class="listing-list d-flex justify-space-between">
+        <listings-list-item
             v-for="(item, index) in items"
-
             :key="index"
             :item="item"
 
-            class="features-list__item"
-        ></features-list-item>
+            class="listing-list__item"
+        ></listings-list-item>
     </div>
 </template>
 
 
 <script>
-import FeaturesListItem from '@/components/FeaturesListItem.vue'
+import ListingsListItem from '@/components/ListingsListItem.vue'
 
 export default {
     components: {
-        FeaturesListItem,
+        ListingsListItem,
     },
 
     props: {
@@ -25,13 +24,13 @@ export default {
             type: Array,
             required: true,
         }
-    }
+    },
 }
 </script>
 
 
 <style lang="scss" scoped>
-    .features-list {
+    .listing-list {
         &__item {
             margin: 0px 10px;
 
